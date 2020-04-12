@@ -61,11 +61,11 @@ public class enemyMovementController : MonoBehaviour
             {
                 if (!facingRight)
                 {
-                    RB.AddForce(new Vector2(-1, 0) * enemySpeed);
+                    RB.AddForce(new Vector2(-1, 0) * enemySpeed, ForceMode2D.Impulse);
                 }
                 else
                 {
-                    RB.AddForce(new Vector2(1, 0) * enemySpeed);
+                    RB.AddForce(new Vector2(1, 0) * enemySpeed, ForceMode2D.Impulse);
                 }
                 anim.SetBool("isCharging", charging);
             }

@@ -9,7 +9,6 @@ public class enemyDamage : MonoBehaviour
 
     public float damage;
     public float damageRate;
-    public float pushBackForce;
 
     float nextDamage;
 

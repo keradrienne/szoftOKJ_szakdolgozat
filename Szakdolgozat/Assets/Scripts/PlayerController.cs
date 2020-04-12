@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D RB;
     Animator anim;
+
     bool facingRight;
 
     // Start is called before the first frame update
@@ -40,9 +41,10 @@ public class PlayerController : MonoBehaviour
     {
         //Check if the character are grounded... if no, than we - the character - is falling
         CheckGrounded();
-        
+
         //Horizontal movement
         Horizontal();
+        
 
         //Vertical movement
         Vertical();

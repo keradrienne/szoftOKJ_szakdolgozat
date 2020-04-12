@@ -22,7 +22,7 @@ public class winGame : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Player")
+        if (other.tag == "Player")
         {
             youWinScreen.SetActive(true);
             player.velocity = new Vector2(0f, 0f);

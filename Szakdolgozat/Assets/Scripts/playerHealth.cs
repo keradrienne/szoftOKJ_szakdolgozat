@@ -83,5 +83,7 @@ public class playerHealth : MonoBehaviour
         Instantiate(bloodFX, transform.position, transform.rotation);
         anim.Play("ReaperDeath");
         gameOverScreen.SetActive(true);
+        GameObject.Find("PlayerAttackRange").SetActive(false);
+        gameObject.GetComponent<PlayerController>().enabled = false;
     }
 }

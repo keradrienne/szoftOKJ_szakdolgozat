@@ -3,7 +3,13 @@ guid: effaaa117f3436e438028d7b8e0fdeae
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bloodFX: {fileID: 6245049126071952516, guid: 7178b6aee989081408c24a7ebf90b856,
+      type: 3}
+  - playerHurt: {instanceID: 0}
+  - gameOverScreen: {instanceID: 0}
+  - healthSlider: {instanceID: 0}
+  - damageScreen: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

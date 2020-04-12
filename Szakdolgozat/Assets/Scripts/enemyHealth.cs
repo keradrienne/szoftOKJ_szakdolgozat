@@ -52,11 +52,14 @@ public class enemyHealth : MonoBehaviour
 
     public void makeDead()
     {
-        DestroyObject(GameObject.Find("EnemyAttackRange"));
-        DestroyObject(GameObject.Find("Enemy"), 3);
+        gameObject.GetComponentInChildren<CircleCollider2D>().enabled = false;
         AudioSource.PlayClipAtPoint(deathSound, transform.position);
         Instantiate(enemyDeathFX, transform.position, transform.rotation);
         anim.Play("GolemDeath");
         if (drops) Instantiate(drop, transform.position, transform.rotation);
+        gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+        gameObject.GetComponent<enemyMovement>().enabled = false;
+        DestroyObject(gameObject, 3);
+        scoreScript.score++;
     }
 }
