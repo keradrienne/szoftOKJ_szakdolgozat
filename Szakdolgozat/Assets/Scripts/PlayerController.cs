@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     //Jumping variables
     bool grounded = false;
-    float groundCheckRadius = 0.2f;
+    float groundCheckRadius = 0.02f;
     public LayerMask groundLayer;
     public Transform groundCheck;
     public float jumpHeight;
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         //Check if the character are grounded... if no, than we - the character - is falling
         CheckGrounded();

@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 4140709820148822520}
   - component: {fileID: 1147903689472281786}
   - component: {fileID: 3102193933464567518}
-  - component: {fileID: 9217948199570038110}
-  - component: {fileID: 348512251541724467}
   m_Layer: 8
   m_Name: ThornedBranch
   m_TagString: Enemy
@@ -30,7 +28,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 442614872550272073}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -108,13 +107,45 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.120758, y: 0.15946198}
   m_EdgeRadius: 0
---- !u!70 &9217948199570038110
+--- !u!1 &9062255022923550669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 442614872550272073}
+  - component: {fileID: 5000020723362682733}
+  - component: {fileID: 7841202878368001217}
+  m_Layer: 0
+  m_Name: Thornes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &442614872550272073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062255022923550669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4140709820148822520}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &5000020723362682733
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080959148358880337}
+  m_GameObject: {fileID: 9062255022923550669}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -124,13 +155,13 @@ CapsuleCollider2D:
   m_Offset: {x: -0.19748749, y: 0.0799351}
   m_Size: {x: 3.7610075, y: 1.4001497}
   m_Direction: 1
---- !u!114 &348512251541724467
+--- !u!114 &7841202878368001217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080959148358880337}
+  m_GameObject: {fileID: 9062255022923550669}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc7df06e00c90cd4ca19874e581f8b8f, type: 3}
