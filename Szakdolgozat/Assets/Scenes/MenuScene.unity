@@ -1369,8 +1369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 180}
-  m_SizeDelta: {x: 322, y: 53.1}
+  m_AnchoredPosition: {x: -47.99999, y: 180}
+  m_SizeDelta: {x: 360.6, y: 53.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493667531
 MonoBehaviour:
@@ -1514,7 +1514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45, y: -335}
+  m_AnchoredPosition: {x: 15, y: -335}
   m_SizeDelta: {x: 356, y: 112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557349466
@@ -2773,7 +2773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 460, y: 178}
+  m_AnchoredPosition: {x: 457.7, y: 178}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1164583491
@@ -2869,8 +2869,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 45}
-  m_SizeDelta: {x: 322, y: 53.1}
+  m_AnchoredPosition: {x: -48, y: 45}
+  m_SizeDelta: {x: 360.6, y: 53.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1188747213
 MonoBehaviour:
@@ -2917,15 +2917,15 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: VERY LOW
+    - m_Text: NAGYON ALACSONY
       m_Image: {fileID: 0}
-    - m_Text: LOW
+    - m_Text: ALACSONY
       m_Image: {fileID: 0}
-    - m_Text: MEDIUM
+    - m_Text: "K\xD6ZEPES"
       m_Image: {fileID: 0}
-    - m_Text: HIGH
+    - m_Text: MAGAS
       m_Image: {fileID: 0}
-    - m_Text: VERY HIGH
+    - m_Text: NAGYON MAGAS
       m_Image: {fileID: 0}
     - m_Text: ULTRA
       m_Image: {fileID: 0}
@@ -3012,7 +3012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -438, y: 177}
+  m_AnchoredPosition: {x: -505.3, y: 177}
   m_SizeDelta: {x: 255.9, y: 112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1199683968
@@ -3406,7 +3406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: FULLSCREEN
+  m_Text: "TELJES K\xC9PERNY\u0150"
 --- !u!222 &1327654797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3485,7 +3485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -67.29999, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1422993399
@@ -3803,7 +3803,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VERY LOW
+  m_Text: NAGYON ALACSONY
 --- !u!222 &1493318015
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4208,7 +4208,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Mozg\xE1s:\t\t\t\"D\" - el\u0151re, \"A\" - h\xE1tra\n\nUgr\xE1s:\t\t\t\t\"Space\"\n\nT\xE1mad\xE1s:\t\tBal
+  m_Text: "Mozg\xE1s:\t\t\t\"D\" - el\u0151re, \"A\" - h\xE1tra\n\nUgr\xE1s:\t\t\t\t\"Sz\xF3k\xF6z\"\n\nT\xE1mad\xE1s:\t\tBal
     eg\xE9rgomb\n\nSz\xFCnet:\t\t\t\"Esc\""
 --- !u!222 &1626888119
 CanvasRenderer:
@@ -4290,7 +4290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -468, y: 42}
+  m_AnchoredPosition: {x: -535.3, y: 42}
   m_SizeDelta: {x: 188.2, y: 112}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1668110608

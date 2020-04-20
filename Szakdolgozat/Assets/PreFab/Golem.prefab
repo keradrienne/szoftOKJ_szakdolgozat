@@ -411,7 +411,6 @@ MonoBehaviour:
   drops: 1
   drop: {fileID: 5486159124719206375, guid: 4989e57d7ae709d46be567e5c06140be, type: 3}
   deathSound: {fileID: 8300000, guid: bf5d4102f62c644aa91a146267aaf815, type: 3}
-  currentHealth: 0
 --- !u!70 &1715802534177083727
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -715,7 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitSound: {fileID: 8300000, guid: 404afa971ba66d742ab167bec7d554b1, type: 3}
   damage: 10
-  damageRate: 3
+  damageRate: 2
 --- !u!82 &1715802534488470711
 AudioSource:
   m_ObjectHideFlags: 0

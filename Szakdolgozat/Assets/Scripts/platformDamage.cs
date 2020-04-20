@@ -31,7 +31,7 @@ public class platformDamage : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Player" && nextDamage < Time.time)
         {
